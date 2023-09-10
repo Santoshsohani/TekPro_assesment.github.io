@@ -1,0 +1,406 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Rubik', sans-serif;
+}
+
+img:hover{
+    transform: scale(1.1); 
+}
+
+@media (max-width: 767px) {
+    
+img:hover{
+    transform: scale(1.1); 
+}
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #181B29;
+}
+
+.navbar-modify{
+    background-color: #181B29;
+    color: white;
+}
+
+.second{
+    color: white;
+}
+
+.primary-btn{
+    color: white;
+    background-color:#00BCF5;
+    width: 6em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.secondary-btn {
+    color: white;
+    background-color: #00BCF5;
+    text-align: center;
+    padding: 0.5em 1em; 
+    cursor: pointer;
+    margin: auto;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    padding: 2em 2em;
+}
+
+.second-one {
+    width:45vw;
+    padding-right: 3em;
+}
+
+.second-one h1{
+    font-size: 3em;
+}
+
+.second-one p{
+    font-size: large;
+    margin: 2em 0em;
+}
+
+
+span{
+    color: #00BCF5;
+}
+
+.second-two{
+    width: 45vw;
+    margin: 1em 0em;
+}
+
+.second-two > img {
+    max-width: 100%; 
+    border: 2px solid white;
+    padding: 0.8em;
+}
+
+
+@media (max-width: 767px) {
+    .second {
+        flex-direction: column; 
+        text-align: center; 
+        height: auto; 
+    }
+
+    .second-one,
+    .second-two {
+        width: 100%; 
+        padding: 1em; }
+
+    .second-one h1 {
+        font-size: 2em; 
+    }
+
+    .second-two > img {
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .second-one,
+    .second-two {
+        width: 50%; 
+    }
+}
+
+
+@media (min-width: 992px) {
+    .second {
+        padding: 2em; 
+    }
+
+    .second-one,
+    .second-two {
+        width: 45%; 
+    }
+
+    .second-one h1 {
+        font-size: 3em; 
+    }
+
+    .second-two > img {
+        max-width: 100%; 
+    }
+}
+
+
+.third {
+    color: white;
+    text-align: center;
+}
+
+.third > h1, .third > p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.third h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.third-one > img {
+    width: 400px;
+    height: 250px;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(205, 197, 197, 0.2), 0 6px 20px 0 rgba(187, 184, 184, 0.19);
+}
+
+.third-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .third > h1, .third > p {
+        text-align: center;
+    }
+
+    .third-one > img {
+        width: 80%; 
+        height: 200px; 
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+
+    .third-one {
+        flex-direction: column; 
+        text-align: center; 
+    }
+}
+
+
+
+.card {
+    width: 40%;
+    background-color: white;
+    padding: 2em 0;
+}
+
+.card h1 {
+    text-align: center;
+    margin: 0.5em 0;
+    width: 80%;
+    margin: auto;
+    padding: 0.5em 0;
+}
+
+.card p {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.card .secondary-btn {
+    width: 80%;
+    margin: auto;
+    padding: 0.5em 0;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%; 
+        margin: auto;
+        padding: 1em 0;
+    }
+
+    .card h1 {
+        width: 90%; 
+        padding: 0.5em 0;
+         margin: auto;
+    }
+
+    .card p {
+        width: 90%; 
+        padding: 1em 0;
+         margin: auto;
+    }
+
+    .card .secondary-btn {
+        width: 90%; 
+        padding: 0.5em 0;
+         margin: auto;
+    }
+
+    .fourth {
+        margin: 2em 0; /
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    form{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+.fifth {
+    color: white;
+    text-align: center;
+}
+
+.fifth .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth img {
+    width: 200px;
+    height: 200px;
+}
+
+.fifth img:hover {
+    transform: scale(1.1); }
+@media (max-width: 768px) {
+    .fifth img {
+        width: 90px; 
+        height: 90px;
+    }
+}
+
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    border-top: 2px solid #00BCF5;
+    padding: 2em 0;
+}
+
+.head, .services, .address {
+    width: 25%;
+}
+
+.footer .heading {
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+.bold {
+    font-size: 25px;
+    color: #00BCF5;
+    font-weight: 700;
+}
+
+.modify-span {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .head, .services, .address {
+        width: 90%; 
+        margin-bottom: 1em; 
+    }
+
+    .footer .heading {
+        font-size: 28px;
+    }
+    
+    .bold {
+        font-size: 20px; 
+    }
+}
+
+.footer2{
+    text-align: center;
+    color: white;
+    margin: 0.3em 0;
+    font-size: 10px;
+}
+
+
+.contact {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 247, 247);
+    color: black;
+    margin-bottom: 2em;
+}
+
+.contact h1 {
+    color: #181B29;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 2em;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+}
+
+.contact .primary-btn {
+    width: 80%;
+    margin: 1.5em auto;
+}
+
+
+@media (max-width: 768px) {
+    .contact {
+        width: 90%; 
+    }
+
+    .contact h1 {
+        font-size: 24px; 
+    }
+
+    .contact input {
+        width: 100%; 
+    }
+
+    .contact .primary-btn {
+        width: 100%;
+    }
+}
